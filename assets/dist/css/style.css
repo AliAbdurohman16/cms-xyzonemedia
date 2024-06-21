@@ -570,3 +570,56 @@ p {
     border-radius: 50%;
     background-color: var(--white);
 }
+
+/* ........................... *\
+    #BREAKING
+\* ........................... */
+
+.breaking .container {
+    padding-left: 0;
+}
+
+.breaking-title {
+    padding: 7px 10px;
+    border-radius: 12px 12px 0 0;
+    background-color: var(--first-color-alt);
+    font-weight: var(--fw-500);
+    font-size: 15px;
+    color: var(--white);
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+.breaking-container {
+    background-color: #f9faff;
+    border-top: 1px solid #e9edff;
+    border-bottom: 1px solid #e9edff;
+}
+
+.breaking-box {
+    padding: 0;
+    border-right: 1px solid #e9edff;
+    border-left: 1px solid #e9edff;
+    padding: 15px 17px;
+    display: grid;
+    grid-template-columns: .6fr 1.3fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.breaking-box img {
+    width: 110px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.breaking-box .date {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.breaking-content-title {
+    font-size: 18px;
+    margin-block: 10px;
+    color: #444;
+}
