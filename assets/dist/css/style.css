@@ -137,7 +137,7 @@ body {
     position: relative;
 }
 
-.has-before,
+.has-before::before,
 .has-after::after {
     position: absolute;
     content: "";
@@ -622,4 +622,121 @@ p {
     font-size: 18px;
     margin-block: 10px;
     color: #444;
+}
+
+/* ........................... *\
+    #HIGHLIGHT
+\* ........................... */
+
+.highlight .section-title {
+    margin-block-end: 30px;
+}
+
+.left-highlights,
+.trending {
+    padding: 18px;
+    border: 1px solid #e9edff;
+}
+
+.highlights-item:not(:last-child) {
+    border-bottom: 1px solid #e9edff;
+}
+
+.highlights-item .img-holder {
+    border-radius: 12px;
+    position: relative;
+}
+
+.highlights-item .img-holder img {
+    transition: all .3s;
+}
+
+.highlights-item .img-holder:hover img {
+    transform: scale(1.2);
+    filter: grayscale(100%);
+}
+
+.highlights-item .badge {
+    position: absolute;
+    z-index: 12;
+    top: 15px;
+    left: 15px;
+}
+
+.card-title {
+    margin-block: 20px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #444;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    margin-block-start: 5px;
+}
+
+.card-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.card-info p {
+    color: var(--first-color);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card-info li:last-child {
+    position: relative;
+    padding-left: 10px;
+}
+
+.card-info li:last-child::before {
+    position: absolute;
+    content: "";
+    top: 11px;
+    left: -8px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: var(--first-color);
+}
+
+.card-text {
+    margin-block: 10px 12px;
+    color: #444;
+}
+
+.trending-list {
+    margin-block-start: 35px;
+}
+
+.trending-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.trending-item:not(:last-child) {
+    border-bottom: 1px solid #eef0fc;
+}
+
+.trending-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.trending-name,
+.trending-count {
+    font-size: 14px;
+    color: #444;
+}
+
+.trending-name {
+    font-size: 16px;
 }
