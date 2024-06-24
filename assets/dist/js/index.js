@@ -58,3 +58,18 @@ var swiper = new Swiper(".breaking-container", {
         }
     }
 });
+
+
+// BACK TOP BTN
+
+const backTopBtn = document.querySelector(".back-top-btn");
+
+const showElementOnScroll = function () {
+    if (window.scrollY > 150) {
+        backTopBtn.classList.add("active");
+    } else {
+        backTopBtn.classList.remove("active");
+    }
+}
+
+window.addEventListener("scroll", showElementOnScroll);
