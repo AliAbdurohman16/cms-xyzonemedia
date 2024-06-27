@@ -498,6 +498,37 @@ p {
     height: 131px;
 }
 
+.support {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.support .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.support .support-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+}
+
+.support .support-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.support .support-img img {
+    width: 100px;
+    height: 50px;
+    display: block;
+}
+
 /* ........................... *\
     #GALLERY
 \* ........................... */
