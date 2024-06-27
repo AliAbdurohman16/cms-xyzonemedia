@@ -282,7 +282,7 @@ p {
 }
 
 .header-top-social i {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: var(--fw-500);
     color: #444;
 }
@@ -392,6 +392,11 @@ p {
 
 .nav-menu {
     overflow-x: auto;
+    scrollbar-width: none; 
+}
+
+.nav-menu::-webkit-scrollbar {
+    display: none;
 }
 
 .nav-list {
