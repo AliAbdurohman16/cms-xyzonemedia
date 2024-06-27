@@ -1,16 +1,16 @@
-const navToggle = document.querySelector(".nav-menu-toggle"),
-      navMenu = document.querySelector(".nav-menu"),
-      navClose = document.querySelector(".nav-menu-close");
+const navToggle = document.querySelector(".nav-menu-amp-toggle"),
+      navMenu = document.querySelector(".nav-menu-amp"),
+      navClose = document.querySelector(".nav-menu-amp-close");
 
 if (navToggle) {
     navToggle.addEventListener("click", () => {
-        navMenu.classList.add("show-menu")
+        navMenu.classList.add("show-menu-amp")
     })
 }
 
 if (navClose) {
     navClose.addEventListener("click", () => {
-        navMenu.classList.remove("show-menu")
+        navMenu.classList.remove("show-menu-amp")
     })
 }
 
