@@ -14,24 +14,6 @@ if (navClose) {
     })
 }
 
-// HEADER RIGHT
-
-const rightHeader = document.querySelector(".right-header-toggle"),
-      headerRightMenu = document.querySelector(".header-right"),
-      rightClose = document.querySelector(".header-right-close");
-
-if (rightHeader) {
-    rightHeader.addEventListener("click", () => {
-        headerRightMenu.classList.add("show-right-menu")
-    })
-}
-
-if (rightClose) {
-    rightClose.addEventListener("click", () => {
-        headerRightMenu.classList.remove("show-right-menu")
-    })
-}
-
 // SLIDER
 
 var swiper = new Swiper(".breaking-container", {

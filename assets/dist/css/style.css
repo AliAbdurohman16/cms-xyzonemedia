@@ -392,57 +392,6 @@ p {
     background-color: #444;
 }
 
-.header-right {
-    position: fixed;
-    top: 0;
-    right: -100%;
-    opacity: 0;
-    visibility: hidden;
-    transition: all .5s;
-    padding: 20px;
-    height: 100vh;
-    width: 320px;
-    background-color: var(--Jaguar);
-    z-index: 100;
-}
-
-.show-right-menu {
-    right: 0;
-    opacity: 1;
-    visibility: visible;
-}
-
-.header-right-top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 0 20px;
-    margin-block-end: 35px;
-}
-
-.header-right-close i{
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    text-align: center;
-    background-color: #333;
-    font-size: 18px;
-    color: var(--white);
-}
-
-.header-right-title {
-    font-family: var(--font-future);
-    color: var(--white);
-    margin-bottom: 30px;
-    font-weight: 400;
-    text-transform: capitalize;
-    font-size: 26px;
-}
-
-.header-right-img {
-    width: 180px;
-}
-
 .posts-list {
     row-gap: 3.5rem;
     margin-block-end: 35px;
@@ -1139,11 +1088,6 @@ p {
         flex-direction: row;
         align-items: center;
         gap: 10px;
-    }
-
-    .header-right {
-        width: 380px;
-        padding: 50px;
     }
 
     .badge {
