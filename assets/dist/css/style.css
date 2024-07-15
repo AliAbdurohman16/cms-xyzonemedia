@@ -1273,6 +1273,12 @@ p {
     margin-bottom: 10px;
 }
 
+.source-image {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
 /* ........................... *\
     #SINGLE POST
 \* ........................... */
